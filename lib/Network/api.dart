@@ -46,7 +46,7 @@ class Api {
     bool success = false;
 
     try {
-      response = await Dio().put("${baseUrl}todos/${id}",
+      response = await Dio().put("${baseUrl}todos/$id",
           data: {"completed": isCompleted, "title": title});
       if (response.statusCode == 200) {
         success = true;

@@ -73,7 +73,7 @@ class TaskCard extends StatelessWidget {
                   commonDialog(context, () async {
                     context.loaderOverlay.show();
                     bool updated = await Api().updateTask(
-                        context, task.id, task.title, task.isCompleted);
+                        context, task.id, task.title, !task.isCompleted);
                     if (updated) {
                       if (context.mounted) {
                         context.loaderOverlay.hide();
