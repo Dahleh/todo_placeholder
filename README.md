@@ -9,7 +9,11 @@ A new Flutter project.
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/Dahleh/todo_placeholder
+git clone git@github.com:Dahleh/todo_placeholder.git
+```
+
+```
+cd todo_placeholder
 ```
 
 **Step 2:**
